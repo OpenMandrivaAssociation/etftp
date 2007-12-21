@@ -10,6 +10,7 @@ Source: %{name}-%{version}.tar.bz2
 License: GPL
 Url: http://www.networksorcery.com/enp/protocol/etftp.htm
 Group: Networking/File transfer
+Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
 ETFTP - Enhanced Trivial File Transfer Protocol. Adaptive transmission
