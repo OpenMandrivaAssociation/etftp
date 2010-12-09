@@ -1,6 +1,6 @@
 %define name etftp
 %define version 1.1.3
-%define release %mkrel 13
+%define release %mkrel 14
 
 Summary: The Enhanced Trivial File Transfer Protocol, RFC 1986, client/server
 Name: %{name}
