@@ -61,3 +61,88 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 %{_sbindir}/*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.3-14mdv2011.0
++ Revision: 618239
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.1.3-13mdv2010.0
++ Revision: 428629
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.1.3-12mdv2009.0
++ Revision: 244950
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.1.3-10mdv2008.1
++ Revision: 136404
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import etftp
+
+
+* Mon Aug 07 2006 Lenny Cartier <lenny@mandriva.com> 1.1.3-10mdv2007.0
+- rebuild
+
+* Wed May 11 2005 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-9mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-8mdk
+- rebuild
+
+* Wed Jan 29 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-7mdk
+- rebuild
+
+* Thu Aug 29 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-6mdk
+- rebuild
+
+* Thu Jul 05 2001 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-5mdk
+- rebuild
+
+* Tue Jan 09 2001 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-4mdk
+- rebuild
+
+* Wed Aug 30 2000 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-3mdk
+- macros
+- BM 
+
+* Wed Apr 26 2000 Lenny Cartier <lenny@mandrakesoft.com> 1.1.3-2mdk
+- fix group
+- spec helper fixes
+
+* Wed Feb 16 2000 Lenny Cartier <lenny@mandrakesoft.com>
+- mandrake build
+ 
+* Fri Mar 26 1999 Christian Joensson FOA 72 <chj@lin.foa.se>
+  [etftp-1.1.3-1]
+  - Update to etftp-1.1.3.
+    * Fixed bug with integer divisions in timers; lDATAsleep, alarmTimeout.
+ 
+* Fri Aug 28 1998 Christian Joensson FOA 72 <chj@lin.foa.se>
+  [etftp-1.1.2-1]
+  - Update to etftp-1.1.2.
+    * Maximum block size is increased to 1900 bytes data. Non RFC compliant
+      in this sense but could increase performance.
+    * Maximum baudrate is increased to a maximum of 1000000 (1 Mbps).
+ 
+* Tue Aug 11 1998 Christian Joensson <chj@lin.foa.se>
+  [etftp-1.1.1-1]
+  - Update to etftp-1.1.1, i.e., fixed symlink to install of etftpd in
+    src/Makefile.in
+ 
+Christian Joensson <chj@lin.foa.se>
+  [etftp-1.1-1]
+  - Update to etftp-1.1.
+ 
+ 
+* Mon Aug 10 1998 Christian Joensson <chj@lin.foa.se>
+  [etftp-1.1-1]
+  - Update to etftp-1.1.
+ 
+* Thu May 28 1998 Christian Joensson <chj@lin.foa.se>
+  [etftp-1.0-1]
+  - First release... 
