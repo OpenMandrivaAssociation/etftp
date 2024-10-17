@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 License: GPL
-Url: http://www.networksorcery.com/enp/protocol/etftp.htm
+Url: https://www.networksorcery.com/enp/protocol/etftp.htm
 Group: Networking/File transfer
 Buildroot: %{_tmppath}/%{name}-buildroot
 
