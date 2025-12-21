@@ -12,6 +12,11 @@ Url: https://www.networksorcery.com/enp/protocol/etftp.htm
 Group: Networking/File transfer
 Buildroot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 ETFTP - Enhanced Trivial File Transfer Protocol. Adaptive transmission
 protocol for radio based data transmission.
